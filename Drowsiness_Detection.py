@@ -3,7 +3,7 @@ from imutils import face_utils
 import imutils
 import dlib
 import cv2
-import winsound  # For alert sound on Windows
+import winsound 
 
 def eye_aspect_ratio(eye):
     A = distance.euclidean(eye[1], eye[5])
